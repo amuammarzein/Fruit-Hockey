@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE24D90B2A1C994E00A85043 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE24D90A2A1C994E00A85043 /* Home.swift */; };
 		BE3A28702A1C660200E2AB3F /* fruithockeyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3A286F2A1C660200E2AB3F /* fruithockeyApp.swift */; };
-		BE3A28722A1C660200E2AB3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3A28712A1C660200E2AB3F /* ContentView.swift */; };
 		BE3A28742A1C660300E2AB3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE3A28732A1C660300E2AB3F /* Assets.xcassets */; };
 		BE3A28772A1C660300E2AB3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE3A28762A1C660300E2AB3F /* Preview Assets.xcassets */; };
+		BE3A287E2A1C663900E2AB3F /* Play.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3A287D2A1C663900E2AB3F /* Play.swift */; };
+		BE3A28802A1C664F00E2AB3F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3A287F2A1C664F00E2AB3F /* GameScene.swift */; };
+		BE3A28922A1C84C100E2AB3F /* bonus.wav in Resources */ = {isa = PBXBuildFile; fileRef = BE3A288F2A1C84C100E2AB3F /* bonus.wav */; };
+		BE78FA522A1CF12700067762 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = BE78FA502A1CF12700067762 /* spark.png */; };
+		BE78FA532A1CF12700067762 /* Spark.sks in Resources */ = {isa = PBXBuildFile; fileRef = BE78FA512A1CF12700067762 /* Spark.sks */; };
+		BEC52E2E2A1D0E1800851616 /* GameScene2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC52E2D2A1D0E1800851616 /* GameScene2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE24D90A2A1C994E00A85043 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		BE3A286C2A1C660200E2AB3F /* fruithockey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fruithockey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE3A286F2A1C660200E2AB3F /* fruithockeyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fruithockeyApp.swift; sourceTree = "<group>"; };
-		BE3A28712A1C660200E2AB3F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE3A28732A1C660300E2AB3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE3A28762A1C660300E2AB3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE3A287D2A1C663900E2AB3F /* Play.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Play.swift; sourceTree = "<group>"; };
+		BE3A287F2A1C664F00E2AB3F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		BE3A288F2A1C84C100E2AB3F /* bonus.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bonus.wav; sourceTree = "<group>"; };
+		BE78FA502A1CF12700067762 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		BE78FA512A1CF12700067762 /* Spark.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Spark.sks; sourceTree = "<group>"; };
+		BEC52E2D2A1D0E1800851616 /* GameScene2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +64,14 @@
 			isa = PBXGroup;
 			children = (
 				BE3A286F2A1C660200E2AB3F /* fruithockeyApp.swift */,
-				BE3A28712A1C660200E2AB3F /* ContentView.swift */,
+				BE3A287D2A1C663900E2AB3F /* Play.swift */,
+				BE3A287F2A1C664F00E2AB3F /* GameScene.swift */,
+				BEC52E2D2A1D0E1800851616 /* GameScene2.swift */,
+				BE24D90A2A1C994E00A85043 /* Home.swift */,
+				BE78FA502A1CF12700067762 /* spark.png */,
+				BE78FA512A1CF12700067762 /* Spark.sks */,
 				BE3A28732A1C660300E2AB3F /* Assets.xcassets */,
+				BE3A288E2A1C84AC00E2AB3F /* Sound */,
 				BE3A28752A1C660300E2AB3F /* Preview Content */,
 			);
 			path = fruithockey;
@@ -65,6 +83,14 @@
 				BE3A28762A1C660300E2AB3F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE3A288E2A1C84AC00E2AB3F /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				BE3A288F2A1C84C100E2AB3F /* bonus.wav */,
+			);
+			path = Sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +152,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE3A28772A1C660300E2AB3F /* Preview Assets.xcassets in Resources */,
+				BE78FA522A1CF12700067762 /* spark.png in Resources */,
 				BE3A28742A1C660300E2AB3F /* Assets.xcassets in Resources */,
+				BE78FA532A1CF12700067762 /* Spark.sks in Resources */,
+				BE3A28922A1C84C100E2AB3F /* bonus.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +166,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE3A28722A1C660200E2AB3F /* ContentView.swift in Sources */,
 				BE3A28702A1C660200E2AB3F /* fruithockeyApp.swift in Sources */,
+				BE3A28802A1C664F00E2AB3F /* GameScene.swift in Sources */,
+				BE24D90B2A1C994E00A85043 /* Home.swift in Sources */,
+				BEC52E2E2A1D0E1800851616 /* GameScene2.swift in Sources */,
+				BE3A287E2A1C663900E2AB3F /* Play.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +302,13 @@
 				DEVELOPMENT_TEAM = 4C2ZJ8RVF3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Fruit Hockey";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeLeft;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +333,13 @@
 				DEVELOPMENT_TEAM = 4C2ZJ8RVF3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Fruit Hockey";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeLeft;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
